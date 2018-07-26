@@ -47,7 +47,7 @@ end
 
  def convert_temp(weather)
    temperature_farenheit = weather[:temperature_farenheit]
-    temperature_celsuis = (temperature_farenheit - 32) * 5/9
+    temperature_celsuis = (temperature_farenheit - 32) * 5/9.0
     temperature_celsuis.round(2)
  end
 
